@@ -17,7 +17,7 @@ st.set_page_config(page_title="Loan Default Marketing Analytics", layout="wide")
 def load_data():
     try:
         # NOTE: Ensure 'loan_default.xlsx' is in the same folder as this script
-        df = pd.read_excel('loan_default.xlsx')
+        df = pd.read_excel('Loan_Sankalp.xlsx')
         return df
     except FileNotFoundError:
         st.error("File 'loan_default.xlsx' not found. Please place the excel in the directory.")
